@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(black, white, black );
+   background-repeat: repeat;
+   background-size: cover;
+  
+
+}
+
+#clock{
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+  
+    margin-top: 15px;
+    background-image: url(clock1.jpg);
+    background-size: 100%;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 50%;
+    
+   
+}
+
+
+#hour{  position: absolute;
+    background: linear-gradient(black, white, black );
+    border-radius: 13px;
+    width: 1.8%;
+    height: 22.8%;
+    top: 27.5%;
+    opacity: 0.8;
+    left: 49.5%;
+    transform-origin: bottom;
+
+}
+#minute{  position: absolute;
+    background: linear-gradient(black, white, black );
+    border-radius: 10px;
+    width: 1.2%;
+    height: 32.3%;
+    top: 18%;
+  opacity: 0.8;
+    left: 49.1%;
+    transform-origin: bottom;
+
+}
+#second{ 
+     position: absolute;
+     background: linear-gradient(black, white, black );
+    border-radius: 10px;
+    width: 0.7%;
+    height: 34.8%;
+    top: 14.9%;
+    opacity: 0.8;
+    left: 49.5%;
+    transition:linear;
+    transform-origin: bottom;
+
+}
+#first{
+    height: 47vw;
+    width: 45vw;
+    background:linear-gradient(darkblue,whitesmoke ,darkblue);
+    border-radius: 15px;
+    margin: auto;
+}
+#digital{
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: italic;
+    color: blanchedalmond;
+    text-align: center;
+}
